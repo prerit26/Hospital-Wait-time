@@ -4,7 +4,7 @@ import os
 
 # ---------- Config ----------
 stats_file = "https://raw.githubusercontent.com/prerit26/Hospital-Wait-time/2. Small and Big hospitals(avg per day one case)\count_more_than_181.csv"
-image_folder = ""https://raw.githubusercontent.com/prerit26/Hospital-Wait-time/3. Hospital_bell_curves"
+image_folder = "https://raw.githubusercontent.com/prerit26/Hospital-Wait-time/3. Hospital_bell_curves"
 
 # ---------- Load summary stats ----------
 @st.cache_data
