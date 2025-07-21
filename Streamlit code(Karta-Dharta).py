@@ -3,8 +3,8 @@ import pandas as pd
 import os
 
 # ---------- Config ----------
-stats_file = "2. Small and Big hospitals(avg per day one case)\count_more_than_181.csv"
-image_folder = "3. Hospital_bell_curves"
+stats_file = f"https://raw.githubusercontent.com/prerit26/Hospital-Wait-time/main/2. Small and Big hospitals(avg per day one case)/count_more_than_181.csv"
+image_folder = f"https://raw.githubusercontent.com/prerit26/Hospital-Wait-time/main/3. Hospital_bell_curves"
 
 # ---------- Load summary stats ----------
 @st.cache_data
